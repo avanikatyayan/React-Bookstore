@@ -23,7 +23,7 @@ const Book = () =>{
     </article>
 }
 const Img = () => <img src = "https://images-eu.ssl-images-amazon.com/images/I/81l3rZK4lnL._AC_UL200_SR200,200_.jpg" alt="IKIGAI"></img>
-const Title = () => <h3>IKIGAI</h3>
-const Author = () => <h1>Hector Gracia</h1>
+const Title = () => <h1 style={{color:'Navy', fontSize:'0.95', marginTop:'0.25rem'}}>IKIGAI</h1>
+const Author = () => <h3 style={{color:'#617d98', fontSize:'0.75', marginTop:'0.25rem'}}>Hector Gracia</h3>
 
 export default Bookstore
